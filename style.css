@@ -1,0 +1,84 @@
+/* General Properties */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Kurale', serif;
+    text-align: justify;
+    font-size: 18px;
+}
+
+section{
+    height: 700px;
+}
+
+body{
+    margin: 0px;
+
+}
+
+.link_button{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 800;
+
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,tomato,magenta);
+    border-radius: 5px;
+    
+}
+
+/* Header Section */
+
+.intro{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.hello{
+    width: 30%;
+    float: left;
+    
+
+}
+
+.hello img{
+    width: 100%;
+}
+
+/* Biography Section */
+
+
+.bio img{
+    width: 100%;
+}
+
+.bio{
+    width:30%;
+    float: left;
+}
+
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+/* Latest Work Section */
+
+.latest_work img{
+    width: 30%;
+    float: left;
+}
+
+.latest_work{
+    margin-top: 0px;
+    margin-left: 10%;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
